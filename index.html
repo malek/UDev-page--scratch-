@@ -2,104 +2,257 @@
 <html lang="en">
 
 <head>
-    <title>Malek Benzerga</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <!-- For the icon Page -->
+  <link href="assets/images/logo_head.png" rel="icon" />
 
-    <!-- For the icon Page -->
-    <link href="assets/icon.png" rel="icon" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Main CSS File -->
-    <link href="css/style.css" rel="stylesheet" />
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Add icon library for social media -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- FONT AWSOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- File Name -->
+  <title>UDev</title>
+
+
+
 </head>
 
-<body>
-    <div class="container-fluid header page-container" style="height: 100vh;">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/avarar.jpg" alt="Malek" style="width:40px; border-radius: 50%;">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+  <!-- ======= Header ======= -->
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="developer.html">Developer</a> </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reader.html">Reader</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+  <header class="container-fluid header page-container" id="home" style="height: 100vh;">
 
-                </ul>
-            </div>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/videos/UDev_intro.mp4" type="video/mp4">
+    </video>
+    <div class="container-fluid h-100">
+      <div class="row banner-text">
+        <div class="col-md-12">
+          <span style="color: white; font-size: 28px;">&lt!-- </span>
+          <span style="color: #f1c40f;">U</span>
+          <span style="color: #3498db;">D</span>
+          <span style="color: #e74c3c;">e</span>
+          <span style="color: #2ecc71;">v</span>
+          <span style="color: white; font-size: 28px;"> --></span>
+        </div>
+        <div class="col-md-12">
+          <div class="text-change"></div>
+        </div>
+      </div>
 
+      <a href="#about">
+        <div class="scroll-down"></div> <!-- The scrollDown btn -->
+      </a>
 
-        </nav>
-
-        <header>
-            <section class="container">
-                <h1>Hello World!</h1>
-                <h2 style="color: white;">I'm Malek</h2>
-                <p>A student for life;<br> Trying to build a successful relationship with Codes and pretty other things.
-                </p>
-                <div class="social-links">
-                    <a href="https://github.com/malek" target="_blank" class="fa fa-github"></a>
-                    <a href="https://web.facebook.com/malak.ben.9085" target="_blank" class="facebook"><i
-                            class="icofont-facebook"></i></a>
-                    <a href="https://www.instagram.com/malek_benzerga/" target="_blank" class="instagram"><i
-                            class="icofont-instagram"></i></a>
-                    <a href="https://www.goodreads.com/user/show/85937579-malek-benzerga" target="_blank" class="google-plus">
-                        <i><img src="assets/icons/goodreads.svg" alt=""></i> </a>
-                    <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-                    <a href="https://soundcloud.com/malek_benzerga" target="_blank" class="fa fa-soundcloud"></a>
-                    <a href="https://www.hackerrank.com/benzergaamalek" target="_blank" class="hackerrank">
-                        <svg height="24px" style="enable-background: new 0 0 512 512; fill: white;" version="1.1"
-                            viewBox="0 0 512 512" width="64px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="comp_x5F_160-hackerrank">
-                                <g>
-                                    <path
-                                        d="M454.843,141.001c-13.019-22.417-172.832-115-198.859-115c-26.019,0-185.895,92.351-198.84,115    c-12.947,22.649-13.019,207.358,0,230.009c13.018,22.639,172.839,114.989,198.84,114.989c26,0,185.841-92.466,198.851-114.999    C467.842,348.467,467.851,163.417,454.843,141.001z M309.862,398.15c-3.559,0-36.756-32.137-34.141-34.762    c0.781-0.78,5.625-1.328,15.768-1.644c0-23.564,0.53-61.622,0.844-77.553c0.038-1.814-0.395-3.081-0.395-5.256h-71.812    c0,6.379-0.412,32.523,1.232,65.479c0.205,4.078-1.42,5.353-5.158,5.335c-9.102-0.025-18.211-0.099-27.321-0.071    c-3.683,0.009-5.274-1.374-5.157-5.488c0.826-30.043,2.66-75.488-0.134-191.07v-2.849c-8.688-0.314-14.717-0.862-15.508-1.652    c-2.624-2.624,31.032-34.76,34.581-34.76c3.558,0,36.989,32.145,34.383,34.76c-0.782,0.781-7.098,1.338-15.067,1.652v2.84    c-2.174,23.135-1.823,71.506-2.362,94.686h72.107c0-4.089,0.351-31.212-1.077-75.145c-0.091-3.047,0.853-4.646,3.781-4.672    c9.945-0.072,19.9-0.117,29.855-0.055c3.108,0.019,4.105,1.546,4.043,4.834c-3.28,171.861-0.594,159.867-0.594,188.975    c7.97,0.315,15.112,0.864,15.895,1.655C346.213,366.004,313.42,398.15,309.862,398.15L309.862,398.15z" />
-                                </g>
-                            </g>
-                            <g id="Layer_1" />
-                        </svg>
-                    </a>
-                </div>
-            </section>
-
-
-
-        </header>
-
-        <footer class="page-footer font-small special-color-dark">
-            <div class="footer-copyright text-center py-3" style="color: honeydew;">© 2020 Made by
-                <a href="index.html">Malek</a>🕊
-            </div>
-            <!-- Copyright -->
-        </footer>
     </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bgcolor mynav">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/fullLogo.png" alt="" width="115" height="30">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger " href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger " href="#journey">Journey</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav> <!-- nav-menu -->
+
+
+  </header> <!-- End Header -->
+
+  <!-- ======= Sections ======= -->
+  <div class="row d-flex justify-content-center">
+    <!-- ======= About Section ======= -->
+    <div class="col-md-12" id="about">
+      <div class="container-fluid aboutword">
+        <div class="typing-about">
+          &lt!-- About -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="container-fluid">
+        <div class="container-fluid card">
+          <h1><span style="color: #f1c40f;">U</span><span style="color: #3498db;">D</span><span
+              style="color: #e74c3c;">e</span><span style="color: #2ecc71;">v</span> {</h1>
+
+          <p><br>UDev or University DEVelopers community is a scientific club, oriented toward and dominated by computer
+            science;
+            <br>It was founded back in 2014 by a group of young ambitious students for the sole purpose of creating a
+            place where they can explore, learn and develop ideas and share knowledge with fellow students and members
+            that share the same drive and passion;<br>
+            We mainly guided by our 4 values:
+
+          <div class="content__container justify-content-center">
+            <p class="content__container__text ">
+
+            <ul class="content__container__list">
+              <li class="content__container__list__item" style="color: #f1c40f;">Explore;</li>
+              <li class="content__container__list__item" style="color: #3498db;">Learn;</li>
+              <li class="content__container__list__item" style="color: #e74c3c;">Develop;</li>
+              <li class="content__container__list__item" style="color: #2ecc71;">Share;</li>
+            </ul>
+
+            </p>
+          </div>
+
+          </p>
+          <h1>}</h1>
+
+        </div>
+      </div>
+    </div>
+    <!-- ======= Journey Section ======= -->
+    <div class="col-md-12">
+      <section id="journey">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="container-fluid aboutword">
+              <div class="typing-journey">
+                &lt!-- Workshops & Events -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <main class="page-content">
+
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Arduino</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Android</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">LaTex</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">UConf</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Khotwa</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Hour of code</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Welcome Day</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Science Day</h2>
+          </div>
+        </div>
+        <div class="cardshop">
+          <div class="contentshop">
+            <h2 class="title">Find your path</h2>
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="footer_area">
+
+    <div class="container hero">
+      <div class="inner">
+
+        <a class="page-scroll" href="#home"><img class="logo" src="assets/images/fullLogo.png" alt="Logo"
+            width="300px"></a>
+        <p>
+          63 6f 6e 74 61 63 74 5f 75 73;
+        </p>
+
+        <p>
+          <span><a href="udevcommunity@gmail.com" class="blue"><i class="fa fa-google"
+                aria-hidden="true"></i></a></span>
+          <span><a href="https://www.facebook.com/UDevCommunity" target="_blank"><i
+                class="fa fa-facebook"></i></a></span>
+          <span><a href="https://github.com/UdevCommunityDev" target="_blank"><i class="fa fa-github"></i></a></span>
+          <span><a href="https://www.youtube.com/channel/UCO_bOpH1If7pgDgft0Wz9hQ" target="_blank"><i
+                class="fa fa-youtube"></i></a></span>
+          <span><a href="https://www.linkedin.com/company/udev-community/" target="_blank"><i
+                class="fa fa-linkedin"></i></a></span>
+          <span><a href="https://twitter.com/UdevCommunity" target="_blank"><i class="fa fa-twitter"></i></a></span>
+        </p>
+
+      </div>
+      <div class="footer-copyright text-center py-3">Copyright © 2021. All rights reserved
+      </div>
+      <!-- Copyright -->
+
+    </div>
+
+  </section>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

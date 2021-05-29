@@ -158,12 +158,12 @@ header .container-fluid {
 
 @keyframes changeLetter {
   0% {
-    content: "//University Of Developers";
+    content: "University Of Developers";
     color: #3498db;
   }
 
   100% {
-    content: "//U Develop";
+    content: "U Develop";
     color: #e74c3c;
   }
 }
@@ -202,7 +202,7 @@ header .container-fluid {
 }
 
 .typing-journey {
-  width: 27ch; /* letters number */
+  width: 30ch; /* letters number */
   animation: typing 4s steps(10) infinite,
     blink 0.5s step-end infinite alternate;
   white-space: nowrap;
